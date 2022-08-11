@@ -1,0 +1,19 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Split Landing Example"
+theme = "split-landing"
+
+[params]
+    showCenterTitleAndImage = true #disable the center title and logo image
+    mainTitle = "Cool Things!"
+    mainImage = "images/logoipsum.svg"
+    leftTitle = "Left Title"
+    leftSubTitle = "Left Subtitle"
+    leftJpg = "images/audio.jpg"
+    leftButtonText = "Read More"
+    leftLink = "#"
+    rightTitle = "Right Title"
+    rightSubTitle = "Right Subtitle"
+    rightJpg = "images/programmer.png"
+    rightButtonText = "Read More"
+    rightLink = "#"

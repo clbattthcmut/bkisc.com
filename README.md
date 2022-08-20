@@ -77,4 +77,4 @@ Take a look into this [list](docs/svgs.md) of available icon options.
 
 If you need another one, just open an issue or create a pull request with your wished icon. :)
 
-
+For further features, please visit (https://github.com/panr/hugo-theme-hello-friend)

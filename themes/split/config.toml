@@ -1,4 +1,0 @@
-[module]
-    [module.hugoVersion]
-        extended = false
-        min = "0.55.0" #truthfully I have no idea what the minimum version is

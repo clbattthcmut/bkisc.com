@@ -63,8 +63,8 @@ disableHugoGeneratorInject = false
   #
   homeSubtitle = "Hello Friend NG"
 
-  # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+  # # Set a background for the homepage
+  # backgroundImage = "assets/images/programmer.png"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -72,7 +72,7 @@ disableHugoGeneratorInject = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable theme toggle
   # 
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -94,31 +94,39 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ["css/style.css"]
-  customJS  = ["js/sth.js"]
+  customCSS = ["css/style.css","css/slider.css"]
+  customJS  = ["js/sth.js","js/slide.js"]
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = true
-    rss = true
+    trademark = false
+    rss = false
     copyright = true
-    author = true
+    author = false
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+      "ATTT Club - HCMUT"
+    ]
+    images = [
+      "https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg",
+      "https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg",
+      "https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg",
+      "https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg",
+      "https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg",
+      "https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg",
+      "images/logo.png",
     ]
 
   # Colors for favicons
@@ -198,3 +206,11 @@ disableHugoGeneratorInject = false
     identifier = "recruitment"
     name       = "Recruitment"
     url        = "recruitment/"
+  [[menu.main]]
+    identifier = "achievement"
+    name       = "Achievement"
+    url        = "achievement/"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/"

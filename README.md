@@ -1,6 +1,6 @@
 
 # landing-page
-Landing page of BISC
+Landing page of BKISC
 
 ## Requirements
 - [x] Pages: Welcome, contact, sponsors (thanks), link to recruitment page.

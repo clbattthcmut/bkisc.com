@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title   = "Hello Friend NG"
+baseURL = "https://bkisc.com"
+title   = "BKISC - CLB ATTT HCMUT"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "" # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -24,7 +24,7 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
@@ -34,10 +34,10 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "SeaDawn"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -55,16 +55,16 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = "BKISC - CLB ATTT HCMUT"
   keywords = ""
-  images = [""]
+  images = ["images/logo.png"]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = ""
 
   # # Set a background for the homepage
-  # backgroundImage = "assets/images/programmer.png"
+  # backgroundImage = ""
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -99,8 +99,8 @@ disableHugoGeneratorInject = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ["css/style.css","css/slider.css"]
-  customJS  = ["js/sth.js","js/slide.js"]
+  customCSS = ["css/style.css","css/slider.css","css/sponsor.css"]
+  customJS  = ["js/splitscreen.js","js/sponsor.js"]
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
@@ -112,22 +112,12 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = false
     rss = false
-    copyright = true
+    copyright = false
     author = false
 
     topText = []
-    bottomText = [
-      "ATTT Club - HCMUT"
-    ]
-    images = [
-      "https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg",
-      "https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg",
-      "https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg",
-      "https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg",
-      "https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg",
-      "https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg",
-      "images/logo.png",
-    ]
+    bottomText = []
+    images = [] 
 
   # Colors for favicons
   #
@@ -160,35 +150,27 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
+  [params.portrait]
   #   path     = "/img/image.jpg"
   #   alt      = "Portrait"
   #   maxWidth = "50px"
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+    name = "facebook"
+    url  = "https://www.facebook.com/clbattthcmut"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:clb.attt@hcmut.edu.vn"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    url  = "https://github.com/clbattthcmut"
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -199,17 +181,17 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    identifier = "achievement"
+    name       = "Achievement"
+    url        = "achievement/"
+  [[menu.main]]
+    identifier = "blogs"
+    name       = "Blogs"
+    url        = "blogs/"
   [[menu.main]]
     identifier = "recruitment"
     name       = "Recruitment"
     url        = "recruitment/"
-  [[menu.main]]
-    identifier = "achievement"
-    name       = "Achievement"
-    url        = "achievement/"
   [[menu.main]]
     identifier = "contact"
     name       = "Contact"

@@ -3,16 +3,18 @@
 Landing page of BKISC
 
 ## Requirements
-- [x] Pages: Welcome, contact, sponsors (thanks), link to recruitment page.
-- [ ] Pages:  members, achievements
+- [x] Pages: Welcome, contact, sponsors (thanks), link to recruitment page, achievements.
+- [ ] Pages:  members
 - [ ] Academic profile for teacher (embed google scholar profile https://scholar.google.com/citations?user=ha11OwIAAAAJ&hl=vi), link to BISC landing page
 ## Set up:
 - Requirement: latest Hugo extended
 - Modified variable in config.toml file to change the website content
+- Run ````hugo server -D```` to start the Hugo server
+- Run ````hugo -D```` to build static pages
 
 ### Change sponsor icon images
 - Add images to static/images
-- add link to modified images[] in [param.footer]
+- Add link to modified images[] in [param.footer]
 
 ### All content of website is save in "content/" and can be write using Markdown languauge
 

@@ -6,7 +6,7 @@ aliases = ["about-us"]
   name = "SeaDawn"
 +++
 
-## Chúng mình là ai
+## Chúng tôi là ai
 
 Câu lạc bộ An toàn thông tin thuộc Khoa **Khoa học và Kỹ thuật Máy tính**, trường Đại học Bách Khoa TP.HCM.
 

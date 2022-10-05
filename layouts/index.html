@@ -1,5 +1,6 @@
 {{ define "body" }}
 
+
 <body class="{{ if .Site.Params.backgroundImage }} background-image"
     style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
     {{ end }}
@@ -10,10 +11,10 @@
 
     <main aria-role="main">
         <div>
-            {{ if .Site.Params.Portrait.Path }}
+            <!-- {{ if .Site.Params.Portrait.Path }}
             <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}"
                 style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
+            {{ end }} -->
 
             <h1>{{ .Site.Title }}</h1>
 
@@ -24,10 +25,8 @@
                 {{ partial "social-icons.html" . }}
             </div>
             {{- end }}
-        </div>
 
-        {{ partial "sponsor.html" . }}
-        
+            {{ partial "sponsor.html" . }}
         </div>
     </main>
     {{ end }}

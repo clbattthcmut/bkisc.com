@@ -99,8 +99,8 @@ disableHugoGeneratorInject = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #
-  customCSS = ["css/style.css","css/slider.css","css/sponsor.css"]
-  customJS  = ["js/splitscreen.js","js/sponsor.js"]
+  customCSS = ["css/style.css","css/slider.css"]
+  customJS  = ["js/splitscreen.js","js/slide.js"]
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
@@ -117,7 +117,11 @@ disableHugoGeneratorInject = false
 
     topText = []
     bottomText = []
-    images = [] 
+    images = [
+      "images/hcmut.png",
+      "images/vng.png",
+      "images/polaris.svg"
+    ] 
 
   # Colors for favicons
   #

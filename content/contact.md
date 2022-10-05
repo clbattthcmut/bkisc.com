@@ -1,19 +1,42 @@
 +++
-title = "About"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
-[ author ]
-  name = "Hugo Authors"
+title = "Contact"
+aliases = ["contact"]
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+You can contact us here!
 
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+<form method="post" action="https://forms.un-static.com/forms/YOUR_ENDPOINT_REFERENCE">
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Tên</label>
+    <div class="col-8">
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-user"></i>
+        </div>
+        <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="email" class="col-4 col-form-label">Địa chỉ E-mail</label>
+    <div class="col-8">
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-envelope"></i>
+        </div>
+        <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="message" class="col-4 col-form-label">Nội dung</label>
+    <div class="col-8">
+      <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Send</button>
+    </div>
+  </div>
+</form>

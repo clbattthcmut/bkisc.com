@@ -39,6 +39,11 @@ disableHugoGeneratorInject = false
 [author]
   name = "SeaDawn"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [blackfriday]
   hrefTargetBlank = true
 

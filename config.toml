@@ -62,7 +62,7 @@ disableHugoGeneratorInject = false
   # 
   description = "BKISC - CLB ATTT HCMUT"
   keywords = ""
-  images = ["images/logo.png"]
+  images = ["images/logo.jpg"]
 
   # Home subtitle of the index page.
   #
@@ -160,9 +160,9 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
   [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+    path     = "images/logo.jpg"
+    alt      = "Portrait"
+    maxWidth = "100px"
 
   # Social icons
   [[params.social]]
@@ -189,10 +189,10 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-  [[menu.main]]
-    identifier = "achievement"
-    name       = "Achievement"
-    url        = "achievement/"
+  #[[menu.main]]
+  #  identifier = "achievement"
+  #  name       = "Achievement"
+  #  url        = "achievement/"
   [[menu.main]]
     identifier = "blogs"
     name       = "Blogs"

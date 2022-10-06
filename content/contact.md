@@ -2,11 +2,11 @@
 title: "Contact"
 date: "2020-02-25"
 ---
-Bạn có thể liên hệ với chúng tôi tại:
+Bạn có thể liên hệ với chúng tôi thông qua biểu mẫu sau:
 
 <form method="post" action="https://forms.un-static.com/forms/dbd174ce12090835a60f1def9de65e306f2df71f">
   <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">Tên</label>
+    <label for="name" class="col-4 col-form-label">Tên của bạn</label>
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-addon">
@@ -18,7 +18,7 @@ Bạn có thể liên hệ với chúng tôi tại:
   </div>
 
   <div class="form-group row">
-    <label for="email" class="col-4 col-form-label">Địa chỉ E-mail</label>
+    <label for="email" class="col-4 col-form-label">Địa chỉ E-mail của bạn</label>
     <div class="col-8">
       <div class="input-group">
         <div class="input-group-addon">
@@ -37,7 +37,7 @@ Bạn có thể liên hệ với chúng tôi tại:
   </div>
   <div class="form-group row">
     <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Send</button>
+      <button name="submit" type="submit" class="btn btn-primary">Gửi</button>
     </div>
   </div>
   

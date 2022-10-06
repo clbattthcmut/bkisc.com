@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on BKISC - CLB ATTT HCMUT</title>
-    <link>https://bkisc.com/categories/</link>
+    <link>https://bkisc.github.io/categories/</link>
     <description>Recent content in Categories on BKISC - CLB ATTT HCMUT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bkisc.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkisc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Binary Exploitation</title>
-      <link>https://bkisc.com/categories/binary-exploitation/</link>
+      <link>https://bkisc.github.io/categories/binary-exploitation/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/categories/binary-exploitation/</guid>
+      <guid>https://bkisc.github.io/categories/binary-exploitation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryptography</title>
-      <link>https://bkisc.com/categories/cryptography/</link>
+      <link>https://bkisc.github.io/categories/cryptography/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/categories/cryptography/</guid>
+      <guid>https://bkisc.github.io/categories/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reverse Engineering</title>
-      <link>https://bkisc.com/categories/reverse-engineering/</link>
+      <link>https://bkisc.github.io/categories/reverse-engineering/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/categories/reverse-engineering/</guid>
+      <guid>https://bkisc.github.io/categories/reverse-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Security</title>
-      <link>https://bkisc.com/categories/web-security/</link>
+      <link>https://bkisc.github.io/categories/web-security/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/categories/web-security/</guid>
+      <guid>https://bkisc.github.io/categories/web-security/</guid>
       <description></description>
     </item>
     

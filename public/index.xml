@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BKISC - CLB ATTT HCMUT</title>
-    <link>https://bkisc.com/</link>
+    <link>https://bkisc.github.io/</link>
     <description>Recent content on BKISC - CLB ATTT HCMUT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bkisc.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkisc.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://bkisc.com/blogs/test/</link>
+      <link>https://bkisc.github.io/blogs/test/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/blogs/test/</guid>
+      <guid>https://bkisc.github.io/blogs/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://bkisc.com/about/</link>
+      <link>https://bkisc.github.io/about/</link>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/about/</guid>
+      <guid>https://bkisc.github.io/about/</guid>
       <description>Chúng tôi là ai Câu lạc bộ An toàn thông tin thuộc Khoa Khoa học và Kỹ thuật Máy tính, trường Đại học Bách Khoa TP.HCM.
 Mục đích: tạo sân chơi dành cho các bạn sinh viên đam mê với bảo mật.
 Hoạt động Seminar: định kỳ với nhiều chủ đề bảo mật liên quan đến:
@@ -36,29 +36,29 @@ Hoạt động Seminar: định kỳ với nhiều chủ đề bảo mật liên
     
     <item>
       <title>Contact</title>
-      <link>https://bkisc.com/contact/</link>
+      <link>https://bkisc.github.io/contact/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/contact/</guid>
-      <description>Bạn có thể liên hệ với chúng tôi tại:
-Tên      Địa chỉ E-mail      Nội dung    Send   </description>
+      <guid>https://bkisc.github.io/contact/</guid>
+      <description>Bạn có thể liên hệ với chúng tôi thông qua biểu mẫu sau:
+Tên của bạn      Địa chỉ E-mail của bạn      Nội dung    Gửi   </description>
     </item>
     
     <item>
       <title>Achievement</title>
-      <link>https://bkisc.com/achievement/</link>
+      <link>https://bkisc.github.io/achievement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/achievement/</guid>
+      <guid>https://bkisc.github.io/achievement/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recruitment</title>
-      <link>https://bkisc.com/recruitment/</link>
+      <link>https://bkisc.github.io/recruitment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bkisc.com/recruitment/</guid>
+      <guid>https://bkisc.github.io/recruitment/</guid>
       <description>🔥 Thông Báo Tuyển Thành Viên BKISC 🔥 Thân chào các bạn sinh viên. Nhằm tạo dựng môi trường học nghiên cứu và học tập về An toàn thông tin hữu ích, Câu lạc bộ An toàn thông tin trường Đại học Bách khoa HCM (CLB ATTT HCMUT) - BK Information Security Club (BKISC) xin thông báo hình thức tuyển thành viên mới như sau:
  Đối tượng: các bạn là sinh viên Đại học Bách Khoa HCM.</description>
     </item>

@@ -1,0 +1,4 @@
+enable        : true
+title         : "Nhà tài trợ"
+client_logos  : 
+  ["images/clients/hcmut.png", "images/clients/vng.png", "images/clients/polaris.svg"]

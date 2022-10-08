@@ -1,207 +1,127 @@
-baseURL = "https://bkisc.github.io"
-title   = "BKISC - CLB ATTT HCMUT"
-languageCode = "en-us"
-theme = "hello-friend-ng"
+baseURL       = "https://bkisc.github.io"
+languageCode  = "en-us"
+title         = "BKISC - CLB ATTT HCMUT"
+theme         = "roxo"
+summarylength = 25
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "" # This message is only used by the RSS template.
-
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpired = false
-canonifyURLs = true
-
-enableRobotsTXT = false
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/:year/:month/:title/"
-
-[author]
-  name = "SeaDawn"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-      
-[blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
-
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  # Metadata mostly used in document's head
-  # 
-  description = "BKISC - CLB ATTT HCMUT"
-  keywords = ""
-  images = ["images/logo.jpg"]
-
-  # Home subtitle of the index page.
-  #
-  homeSubtitle = ""
-
-  # # Set a background for the homepage
-  # backgroundImage = ""
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
-  disableReadOtherPosts = true
-
-  # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = true
-
-  # Sharing buttons
-  #
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
-  enableSharingButtons = true
-
-  # Global language menu
-  #
-  # Enables the global language menu.
-  #
-  enableGlobalLanguageMenu = false
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = ["css/style.css","css/slider.css"]
-  customJS  = ["js/splitscreen.js","js/slide.js"]
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
-  justifyContent = true  # Set "text-align: justify" to .post-content.
-
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
-  [params.footer]
-    trademark = false
-    rss = false
-    copyright = false
-    author = false
-
-    topText = []
-    bottomText = []
-    images = [
-      "images/hcmut.png",
-      "images/vng.png",
-      "images/polaris.svg"
-    ] 
-
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
-
-  [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd /home/"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
-  # A better internet.
-  # Uncomment this to enable Commento.
-  #
-  # [params.commento]
-  #   url = ""
-
-  # Uncomment this if you want a portrait on your start page
-  #
-  [params.portrait]
-    path     = "images/logo.jpg"
-    alt      = "Portrait"
-    maxWidth = "100px"
-
-  # Social icons
-  [[params.social]]
-    name = "facebook"
-    url  = "https://www.facebook.com/clbattthcmut"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:clb.attt@hcmut.edu.vn"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/clbattthcmut"
-
-[languages]
-  [languages.en]
-    subtitle  = ""
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-
+# Site Menus
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  #[[menu.main]]
-  #  identifier = "achievement"
-  #  name       = "Achievement"
-  #  url        = "achievement/"
-  [[menu.main]]
-    identifier = "blogs"
-    name       = "Blogs"
-    url        = "blogs/"
-  [[menu.main]]
-    identifier = "recruitment"
-    name       = "Recruitment"
-    url        = "recruitment/"
-  [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "contact/"
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 1
+  #[[menu.nav]]
+  #  name    = "Achievement"
+  #  url     = "achievement"
+  #  weight  = 2
+  #[[menu.nav]]
+  #  name    = "Blog"
+  #  url     = "blog"
+  #  weight  = 3
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Recruitment"
+    url     = "portfolio/recruitment"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  # Meta data
+  description = "BKISC - CLB ATTT HCMUT"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = ""
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabform  = "https://forms.un-static.com/forms/dbd174ce12090835a60f1def9de65e306f2df71f"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Type"
+    placeholder_about_the_project = "Content"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "question"
+      title  = "Question"
+    [[params.contactForm.projectType]]
+      value = "recruit"
+      title  = "Recruitment"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Recruitment"
+    url     = "recruitment"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.png"
+    heading               = "BK Information Security Club"
+    tagline               = "YOUR SECURITY, OUR PASSION"
+    primary_button        = "About Us"
+    primary_button_url    = "about"
+    secondary_button      = "Join Us"
+    secondary_button_url  = "portfolio/recruitment"
+
+  #[params.portfolio]
+  #  enable    = true
+  #  title     = "OUR RECENT WORKS"
+  #  subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  #[params.call_to_action]
+  #  enable              = true
+  #  background_image    = "images/backgrounds/cta-background.png"
+  #  title               = "LET’S WORK TOGETHER"
+  #  primary_button      = "Submit Query"
+  #  primary_button_url  = "contact"
+  #  secondary_button    = "Not Convinced"
+  #  secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "268 Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí Minh"
+      email   = "clb.attt@hcmut.edu.vn"
+      phone   = ""
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About"
+          url  = "about"
+        #[[params.footer.sitemap.link]]
+        #  name = "Blog"
+        #  url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+        [[params.footer.sitemap.link]]
+          name = "Recruitment"
+          url  = "recruitment"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/clbattthcmut/"
+        [[params.footer.social.link]]
+          name = "Github"
+          url  = "https://github.com/clbattthcmut"
+        [[params.footer.social.link]]
+          name = "Discord"
+          url  = "https://discord.gg/wf9xSVPPvn"
+      # Footer Service
+      [params.footer.service]
+        title       = "We create:"
+        description = "playground for students who are passionate about security"

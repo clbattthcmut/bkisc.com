@@ -1,6 +1,7 @@
 ---
 title: "🔥 Thông Báo Tuyển Thành Viên 🔥"
 type: portfolio
+url: "/recruitment"
 category: ["RECRUITMENT"]
 ---
 

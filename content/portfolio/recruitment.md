@@ -37,6 +37,7 @@ Các bạn thí sinh có thể tham gia kênh Discord hỗ trợ của CLB [tạ
     + Debugger: [GDB](https://www.sourceware.org/gdb/) (nên cài thêm [pwndbg plugin](https://github.com/pwndbg/pwndbg))
 
 ### Tài liệu tham khảo
++ [Làm an toàn thông tin thì học gì? - Dương Ngọc Thái](https://vnhacker.blogspot.com/2012/05/lam-toan-thong-tin-thi-hoc-gi.html)
 + [Bắt đầu học an toàn thông tin như thế nào? - MANHLUAT](https://l4w.io/2017/07/bat-dau-hoc-an-toan-thong-tin-nhu-the-nao/)
 + [LiveOverflow Channel](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
 + [Cryptography - Efiens](https://www.facebook.com/efiens.team/posts/pfbid02nSyBE8MYmgeRCqx9ZZkfvpMF8TvNx7E5m4aEhyUjL85MtBHNq5xzf6EKeGsB6EEl)

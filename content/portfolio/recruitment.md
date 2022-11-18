@@ -19,7 +19,7 @@ Nhằm khuyến kích tinh thần học tập và tìm hiểu về An toàn thô
 
 | Loại thử thách    | Đề bài | Nhiệm vụ | Web làm bài | Yêu cầu
 |---	             |---	    |---	|---	|---	
-**Cryptography** (Mật mã học) | Được cung cấp một chương trình mã hóa (bằng mật mã RSA, phương trình toán học...) | Tìm ra điểm yếu của quá trình mã hóa, tạo lại văn bản gốc từ chuỗi được mã hóa | [Cryptohack](https://cryptohack.org/) | Đạt tối thiểu 2000 điểm
+**Cryptography** (Mật mã học) | Được cung cấp một chương trình mã hóa (bằng mật mã RSA, phương trình toán học...) | Tìm ra điểm yếu của quá trình mã hóa, tạo lại văn bản gốc từ chuỗi được mã hóa | [Cryptohack](https://cryptohack.org/) | Đạt tối thiểu 3500 điểm
 **Pwnable (Binary Exploitation)** (Khai thác lỗ hổng phần mềm)| Được cung cấp file thực thi trên Linux | Tìm kiếm lỗi làm sửa đổi luồng thực thi của chương trình để xâm nhập server và lấy flag | [dojo.pwn.college](https://dojo.pwn.college/dojos) | Đạt tối thiểu 80 điểm
 **Reverse Engineering (RE)** (Dịch ngược phần mềm)| Được cung cấp 1 file thực thi | Dịch ngược và hiểu được thuật toán, sau đó tìm ra input thoả mãn để cho ra flag cần tìm | [root-me (Cracking)](https://www.root-me.org/en/Challenges/Cracking/) | Đạt tối thiểu 250 điểm
 **Web Exploitation** (Tấn công web)         | Một trang web cơ bản (có thể chứa source code) kèm lỗ hổng tiêu biêủ của các ứng dụng web| Khai thác lỗ hổng của web | [root-me (Web-Server)](https://www.root-me.org/en/Challenges/Web-Server) | Đạt tối thiểu 1000 điểm

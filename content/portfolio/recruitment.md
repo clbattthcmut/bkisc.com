@@ -4,18 +4,18 @@ type: portfolio
 category: ["RECRUITMENT"]
 ---
 
-Thân chào các bạn sinh viên. Nhằm tạo dựng môi trường học nghiên cứu và học tập về An toàn thông tin hữu ích, Câu lạc bộ An toàn thông tin trường Đại học Bách khoa HCM (CLB ATTT HCMUT) - BK Information Security Club (BKISC) xin thông báo hình thức tuyển thành viên mới như sau:
+Thân chào các bạn sinh viên. Nhằm tạo dựng môi trường nghiên cứu và học tập về An toàn thông tin hữu ích, Câu lạc bộ An toàn thông tin trường Đại học Bách khoa HCM (CLB ATTT HCMUT) - BK Information Security Club (BKISC) xin thông báo hình thức tuyển thành viên mới như sau:
 
 - Đối tượng: các bạn là sinh viên Đại học Bách Khoa HCM.
 - Thời gian: bắt đầu từ ngày 01/10/2022.
 - Hình thức ứng tuyển: 
     1. Thí sinh hoàn thành Thử thách An toàn thông tin 101.
-    2. Thí sinh gửi các thông tin ứng tuyển (bao gồm các thông tin xác nhận hoàn thành bước 1) đến CLB thông qua email clb.attt@hcmut.edu.vn.
+    2. Thí sinh gửi các thông tin ứng tuyển (bao gồm các thông tin xác nhận hoàn thành bước 1, CV giới thiệu bản thân và thư bày tỏ nguyện vọng và dự định nếu trở thành thành viên của câu lạc bộ) đến CLB thông qua email clb.attt@hcmut.edu.vn.
     3. Thí sinh gặp gỡ và trò truyện trực tiếp cùng ban chủ nhiệm CLB và các thành viên.
     4. Thí sinh trở thành một thành viên chính thức của CLB.
 
 ### Thử thách An toàn thông tin 101
-Nhằm khuyến kích tinh thần học tập và tìm hiểu về An toàn thông tin của sinh viên, CLB đề xuất các bạn tham gia và hoàn thành các thử thách (challenges) trên các trang thực chiến. Cụ thể:
+Nhằm khuyến khích tinh thần học tập và tìm hiểu về An toàn thông tin của sinh viên, CLB đề xuất các bạn tham gia và hoàn thành các thử thách (challenges) trên các trang thực chiến. Cụ thể:
 
 | Loại thử thách    | Đề bài | Nhiệm vụ | Web làm bài | Yêu cầu
 |---	             |---	    |---	|---	|---	
@@ -26,7 +26,7 @@ Nhằm khuyến kích tinh thần học tập và tìm hiểu về An toàn thô
 
 Các thí sinh được xem là đã hoàn thành Thử thách An toàn thông tin 101 khi ***hoàn thành yêu cầu của tối thiểu một "Loại thử thách"*** *hoặc* ***hoàn thành 50% yêu cầu của bốn "Loại thử thách"***. 
 
-*Khi hoàn thành các thử thách, thí sinh sẽ có cơ hội nhận thêm các giải thưởng và quà lưu niệm từ CLB (under-construction)*
+<!-- Khi hoàn thành các thử thách, thí sinh sẽ có cơ hội nhận thêm các giải thưởng và quà lưu niệm từ CLB (under-construction) -->
 
 Các bạn thí sinh có thể tham gia kênh Discord hỗ trợ của CLB [tại đây](https://discord.gg/wf9xSVPPvn)
 

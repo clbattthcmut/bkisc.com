@@ -44,3 +44,4 @@ Các bạn thí sinh có thể tham gia kênh Discord hỗ trợ của CLB [tạ
 + [Reverse Engineering (RE) - Efiens](https://www.facebook.com/efiens.team/posts/pfbid0fWhcATzEKsopfqo6nXSYWubBJhmCRcSCedcBXWyRZRWVxp6VxzqdfWhSeo4fWrBNl)
 + [Pwnable (Binary Exploitation) - Efiens](https://www.facebook.com/efiens.team/posts/pfbid0ACQgiNAANyTjTJRVcYCFSfBLYEuVyNGiz4g4w2NnULtPrzjtee5dDQiyNGfwDARnl)
 + [Web Exploitation - Efiens](https://www.facebook.com/efiens.team/posts/pfbid02uQ1rvx9GXqF7JvtL1Vzs11BY9PzK4BvM7h5HfP6kodY9o14EH4AU14W6bvDspXj3l)
++ [Wargame for beginners](https://overthewire.org/wargames/bandit)

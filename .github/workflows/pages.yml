@@ -68,3 +68,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      # After deploy, sync 'contribute-blog' to 'main'
+      - uses: actions/checkout@master
+
+      - name: Merge 'main' -> 'contribute-blog'
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: main
+          target_branch: contribute-blog
+          github_token: ${{ secrets.GITHUB_TOKEN }}

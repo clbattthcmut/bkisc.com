@@ -1,127 +1,127 @@
-baseURL       = "https://bkisc.github.io"
-languageCode  = "en-us"
-title         = "BKISC - CLB ATTT HCMUT"
-theme         = "roxo"
+baseURL = "https://bkisc.github.io"
+languageCode = "en-us"
+title = "BKISC - CLB ATTT HCMUT"
+theme = "roxo"
 summarylength = 25
 
 # Site Menus
 [menu]
-  # Navbar Menus
-  [[menu.nav]]
-    name    = "About"
-    url     = "about"
-    weight  = 1
-  #[[menu.nav]]
-  #  name    = "Achievement"
-  #  url     = "achievement"
-  #  weight  = 2
-  #[[menu.nav]]
-  #  name    = "Blog"
-  #  url     = "blog"
-  #  weight  = 3
-  [[menu.nav]]
-    name    = "Contact"
-    url     = "contact"
-    weight  = 4
-  [[menu.nav]]
-    name    = "Recruitment"
-    url     = "portfolio/recruitment"
-    weight  = 5
+# Navbar Menus
+[[menu.nav]]
+name = "About"
+url = "about"
+weight = 1
+#[[menu.nav]]
+#  name    = "Achievement"
+#  url     = "achievement"
+#  weight  = 2
+[[menu.nav]]
+name = "Blog"
+url = "blog"
+weight = 3
+[[menu.nav]]
+name = "Contact"
+url = "contact"
+weight = 4
+[[menu.nav]]
+name = "Recruitment"
+url = "portfolio/recruitment"
+weight = 5
 
 # Site Params
 [params]
-  logo = "images/logo.png"
-  # Meta data
-  description = "BKISC - CLB ATTT HCMUT"
-  author = "StaticMania"
-  # Google Analitycs
-  googleAnalitycsID = ""
-  # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://forms.un-static.com/forms/dbd174ce12090835a60f1def9de65e306f2df71f"
+logo = "images/logo.png"
+# Meta data
+description = "BKISC - CLB ATTT HCMUT"
+author = "StaticMania"
+# Google Analitycs
+googleAnalitycsID = ""
+# We're using formspree.io for form handling, paste your formspree url below
+fabform = "https://forms.un-static.com/forms/dbd174ce12090835a60f1def9de65e306f2df71f"
 
-  # Contact Form
-  [params.contactForm]
-    placeholder_first_name        = "First Name"
-    placeholder_last_name         = "Last Name"
-    placeholder_email             = "Email"
-    placeholder_project_type      = "Type"
-    placeholder_about_the_project = "Content"
-    send_message                  = "Send Message"
+# Contact Form
+[params.contactForm]
+placeholder_first_name = "First Name"
+placeholder_last_name = "Last Name"
+placeholder_email = "Email"
+placeholder_project_type = "Type"
+placeholder_about_the_project = "Content"
+send_message = "Send Message"
 
-    [[params.contactForm.projectType]]
-      value = "question"
-      title  = "Question"
-    [[params.contactForm.projectType]]
-      value = "recruit"
-      title  = "Recruitment"
-  
-  # Navbar Action Button
-  [params.navAction]
-    status  = true
-    name    = "Recruitment"
-    url     = "recruitment"
-  
+[[params.contactForm.projectType]]
+value = "question"
+title = "Question"
+[[params.contactForm.projectType]]
+value = "recruit"
+title = "Recruitment"
 
-  # Banner Section
-  [params.banner]
-    enable                = true
-    background_image      = "images/backgrounds/hero-background.png"
-    heading               = "BK Information Security Club"
-    tagline               = "YOUR SECURITY, OUR PASSION"
-    primary_button        = "About Us"
-    primary_button_url    = "about"
-    secondary_button      = "Join Us"
-    secondary_button_url  = "portfolio/recruitment"
+# Navbar Action Button
+[params.navAction]
+status = true
+name = "Recruitment"
+url = "recruitment"
 
-  #[params.portfolio]
-  #  enable    = true
-  #  title     = "OUR RECENT WORKS"
-  #  subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
-  #[params.call_to_action]
-  #  enable              = true
-  #  background_image    = "images/backgrounds/cta-background.png"
-  #  title               = "LET’S WORK TOGETHER"
-  #  primary_button      = "Submit Query"
-  #  primary_button_url  = "contact"
-  #  secondary_button    = "Not Convinced"
-  #  secondary_button_url = "portfolio"
+# Banner Section
+[params.banner]
+enable = true
+background_image = "images/backgrounds/hero-background.png"
+heading = "BK Information Security Club"
+tagline = "YOUR SECURITY, OUR PASSION"
+primary_button = "About Us"
+primary_button_url = "about"
+secondary_button = "Join Us"
+secondary_button_url = "portfolio/recruitment"
 
-  [params.footer]
-    # Footer Contact Info
-    [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = "268 Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí Minh"
-      email   = "clb.attt@hcmut.edu.vn"
-      phone   = ""
-      # Footer Sitemap
-      [params.footer.sitemap]
-        title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "About"
-          url  = "about"
-        #[[params.footer.sitemap.link]]
-        #  name = "Blog"
-        #  url  = "blog"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
-        [[params.footer.sitemap.link]]
-          name = "Recruitment"
-          url  = "recruitment"
-      # Footer Social Media
-      [params.footer.social]
-        title   = "Social Media"
-        [[params.footer.social.link]]
-          name = "Facebook"
-          url  = "https://www.facebook.com/clbattthcmut/"
-        [[params.footer.social.link]]
-          name = "Github"
-          url  = "https://github.com/clbattthcmut"
-        [[params.footer.social.link]]
-          name = "Discord"
-          url  = "https://discord.gg/wf9xSVPPvn"
-      # Footer Service
-      [params.footer.service]
-        title       = "We create:"
-        description = "playground for students who are passionate about security"
+#[params.portfolio]
+#  enable    = true
+#  title     = "OUR RECENT WORKS"
+#  subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+#[params.call_to_action]
+#  enable              = true
+#  background_image    = "images/backgrounds/cta-background.png"
+#  title               = "LET’S WORK TOGETHER"
+#  primary_button      = "Submit Query"
+#  primary_button_url  = "contact"
+#  secondary_button    = "Not Convinced"
+#  secondary_button_url = "portfolio"
+
+[params.footer]
+# Footer Contact Info
+[params.footer.contactInfo]
+title = "Contact Info"
+address = "268 Lý Thường Kiệt, Phường 14, Quận 10, Thành phố Hồ Chí Minh"
+email = "clb.attt@hcmut.edu.vn"
+phone = ""
+# Footer Sitemap
+[params.footer.sitemap]
+title = "Sitemap"
+[[params.footer.sitemap.link]]
+name = "About"
+url = "about"
+#[[params.footer.sitemap.link]]
+#  name = "Blog"
+#  url  = "blog"
+[[params.footer.sitemap.link]]
+name = "Contact"
+url = "contact"
+[[params.footer.sitemap.link]]
+name = "Recruitment"
+url = "recruitment"
+# Footer Social Media
+[params.footer.social]
+title = "Social Media"
+[[params.footer.social.link]]
+name = "Facebook"
+url = "https://www.facebook.com/clbattthcmut/"
+[[params.footer.social.link]]
+name = "Github"
+url = "https://github.com/clbattthcmut"
+[[params.footer.social.link]]
+name = "Discord"
+url = "https://discord.gg/wf9xSVPPvn"
+# Footer Service
+[params.footer.service]
+title = "We create:"
+description = "playground for students who are passionate about security"

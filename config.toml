@@ -100,9 +100,9 @@ title = "Sitemap"
 [[params.footer.sitemap.link]]
 name = "About"
 url = "about"
-#[[params.footer.sitemap.link]]
-#  name = "Blog"
-#  url  = "blog"
+[[params.footer.sitemap.link]]
+name = "Blog"
+url = "blog"
 [[params.footer.sitemap.link]]
 name = "Contact"
 url = "contact"

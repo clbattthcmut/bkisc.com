@@ -1,11 +1,36 @@
-{{ define main }}
+{{ define "main" }}
+
+<section class="site-blog-header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h1>{{ .Title }}</h1>
+                <p>
+                    {{ .Params.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="site-blog">
     {{ if (eq $.Parent.Title "Blogs") }}
 
     <div class="container">
         <div class="row">
-            {{ range (.Paginator ).Pages }}
+            {{ if eq (len .Pages) 0 }}
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h3>Team chúng mình vẫn chưa có blog cho category này :(((</h3>
+                        <p>
+                            Hẹn gặp lại các bạn vào lần sau
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {{else}}
+            {{ range (.Paginator 6).Pages }}
             <div class="col-lg-6">
                 <article class="site-blog-post">
                     {{ with .Params.image }}
@@ -29,6 +54,7 @@
                     {{ template "_internal/pagination.html" . }}
                 </div>
             </div>
+            {{end}}
         </div>
     </div>
 

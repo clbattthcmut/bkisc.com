@@ -1,8 +1,8 @@
 ---
 title: "Sekai Ctf 2022 Bottle Poem"
 date: 2023-01-06T10:27:19+07:00
-image: images/blog/web/sekai-ctf-2022-bottle-poem/sekai-ctf-2022-logo.png
-feature_image: images/blog/web/sekai-ctf-2022-bottle-poem/sekai-ctf-2022-logo.png
+image: images/blog/organization/ctf/sekai-ctf-2022-logo.png
+feature_image: images/blog/organization/ctf/sekai-ctf-2022-logo.png
 author: duti
 tags: ["web", "ctf", "duti"]
 draft: true
@@ -10,22 +10,22 @@ draft: true
 
 ### Problem statement
 
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/problem-statement.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/problem-statement.png" title="" >}}
 Author hints that flag is executable
 
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/web-home.png" title="" >}}
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/web-link.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/web-home.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/web-link.png" title="" >}}
 
 The website is vulnerable to directory traversal
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/web-link-directory-traversal.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/web-link-directory-traversal.png" title="" >}}
 
 Pick /etc/self/procline to get the start application command
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/directory-traveral-cmd-procline.png" title="" >}}
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/self-procline.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/directory-traveral-cmd-procline.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/self-procline.png" title="" >}}
 
 So the application source is located at /app/app.py
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/self-procline.png" title="" >}}
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/app-source.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/self-procline.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/app-source.png" title="" >}}
 {{< gist hdthinh1012 fe0323be1368b472eb49f9b4cd629b07 >}}
 
 If run the code at local change the set_cookie’s session argument to {”name”:”admin”} will get the admin page but it just a trap
@@ -35,10 +35,10 @@ The hint said flag is executable, meaning RCE is possible.
 Let's have a look at Python Bottle
 
 ### Python Bottle
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/bottle-guide.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/bottle-guide.png" title="" >}}
 
 #### Bottle signed cookie
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/bottle-signed-step.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/bottle-signed-step.png" title="" >}}
 Bottle first:
 
 - pickle.dumps([name, value], -1) then base64 encode → encoded
@@ -48,7 +48,7 @@ Bottle first:
 Cookie format: !__secret_hmac_base64__==?__pickle_name_value_base64__==
 
 #### Bottle verify cookie
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/bottle-verify-step.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/bottle-verify-step.png" title="" >}}
 get_cookie:
 
 - …
@@ -90,18 +90,18 @@ Add an class definition with `__reduce__` method (that return reverse shell pyth
 
 Running server and go to /sign with the Guest cookie to get the new Cookie with RCE instance dumps
 
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/get-malicious-cookie.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/get-malicious-cookie.png" title="" >}}
 
 
 <!-- {{< gist hdthinh1012 1244973789752ff62c2956e9698570eb >}} -->
 In Attackbox, open netcat listener at port 55555:
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/run-nc-listener.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/run-nc-listener.png" title="" >}}
 
 Request to the SekaiCTF with RCE cookie
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/run-payload.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/run-payload.png" title="" >}}
 
 Netcat listener now receive reverse shell:
-{{< figure src="/images/blog/web/sekai-ctf-2022-bottle-poem/access-flag.png" title="" >}}
+{{< figure src="/images/blog/web/duti/sekai-ctf-2022-bottle-poem/access-flag.png" title="" >}}
 
 ### Reference Links
 
